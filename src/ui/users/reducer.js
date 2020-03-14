@@ -1,7 +1,8 @@
 import consts from './consts';
 
 const initialState = {
-    userList: []
+    userList: [],
+    showForm: false
 };
 
 export default (state = {...initialState}, action) => {
