@@ -1,6 +1,8 @@
 import consts from './consts';
 
-const initialState = {};
+const initialState = {
+    userList: []
+};
 
 export default (state = {...initialState}, action) => {
     switch (action.type) {
